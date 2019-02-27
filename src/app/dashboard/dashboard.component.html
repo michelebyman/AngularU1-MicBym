@@ -8,7 +8,7 @@
     <!--Adding childs to dashboard and using @Input[] and @Output() to be able to send and recive data from the childs   -->
     <app-user-list [users]="userList"></app-user-list>
 
-    <app-edit-users (addUser)="onAddUser($event)" (removeUser)="onRemoveUser($event)"></app-edit-users>
+    <app-edit-users [userL]="userList" (addUser)="onAddUser($event)" (removeUser)="onRemoveUser($event)"></app-edit-users>
   </div>
 
 </div>
