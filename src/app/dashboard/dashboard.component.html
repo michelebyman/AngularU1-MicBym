@@ -1,3 +1,14 @@
-<p>
-  dashboard works!
-</p>
+
+
+<div class="wrapper-column">
+
+  <h1>UPPGIFT 1 av Michele Byman</h1>
+
+  <div class="wrapper-row">
+    <!--Adding childs to dashboard and using @Input[] and @Output() to be able to send and recive data from the childs   -->
+    <app-user-list [users]="userList"></app-user-list>
+
+    <app-edit-users (addUser)="onAddUser($event)" (removeUser)="onRemoveUser($event)"></app-edit-users>
+  </div>
+
+</div>

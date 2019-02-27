@@ -1,3 +1,2 @@
-<p>
-  user-list-item works!
-</p>
+<!--we use ngCLass to be able to toggle between to classes on every li-item and we revices variable from -->
+<li [ngClass]="changeColor ? 'classOne' : 'classTwo'" class="list-group-item background mb-2">{{user}}</li>

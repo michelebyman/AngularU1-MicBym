@@ -1,0 +1,14 @@
+.classOne {
+  color:red;
+  transition: 2s;
+}
+
+.classTwo {
+  color: pink;
+  font-size: 3rem;
+  transition: 2s;
+}
+
+.background {
+  background-color: blue;
+}
