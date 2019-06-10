@@ -15,7 +15,7 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
   }
 
- //recives parameter from edit-users.componet.ts(@Output addUser: new EventEmitter) through the dashboard.component.html where we add (addUser)="onAddUser($event) then Adds user to userList[]
+ //receives parameter from edit-users.component.ts(@Output addUser: new EventEmitter) through the dashboard.component.html where we add (addUser)="onAddUser($event) then Adds user to userList[]
   onAddUser(user:string):void{
     this.userList.push(user);
   }
